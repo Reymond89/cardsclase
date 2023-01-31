@@ -6,23 +6,25 @@
 }
 .card__section{
     width: 100%;
-    background-color: rgb(244, 238, 238);
+    height: 100%;
+    background-image: url('455-degradados.png');
 }
 .card__container{
-    height: 100vh;
+  
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 30px 0;
   
 }
 .card__title{
     padding-top: 30px;
     font-size: 2rem;
     font-weight: bold;
-    color: rgb(112, 108, 108);
+    color: rgb(28 51 82);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -48,13 +50,14 @@
 }
 .card__subtitle{
     font-size: 1.5rem;
-    font-weight: 500px;
+    font-weight: 600;
+    color: 352f2f;
     
 }
 .card__description{
     font-size: 1rem;
     font-weight: 300;
-    margin: 10px 0;
+    margin: 20px 0;
     color: rgb(141, 138, 138);
    
 }
